@@ -1,22 +1,94 @@
 aid: control-seat
 name: Control Seat
-description: Control Seat is a company surfaced as a portfolio company of y-combinator and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Control Seat is an AI-native industrial systems integrator building a modern
+  replacement for legacy SCADA (Supervisory Control and Data Acquisition)
+  platforms such as Ignition, WinCC, and FactoryTalk. It designs, builds,
+  deploys, and runs the full industrial control stack, from PLC programming
+  (Allen-Bradley, Siemens, Beckhoff) and HMI/SCADA operator screens to OT/IT
+  networking, historians, and analytics, on a single unified platform. The
+  product connects to field devices over OPC UA and MQTT (Sparkplug B),
+  integrates with AVEVA PI, Ignition, and standard SQL/time-series databases
+  (PostgreSQL, MySQL, InfluxDB, Prometheus) plus REST APIs, and streams 10k+
+  tags per second at sub-100ms latency. AI-native features let operators
+  generate control screens in seconds, run anomaly detection and forecasting,
+  and query the historian in plain English. Enterprise capabilities include
+  SSO, SCIM, role-based access control, and audit logs, with deployment on
+  managed cloud or self-hosted on-premises. Founded in 2025 by Jack Grodnick
+  and Warren Shepard, Control Seat is based in San Francisco and backed by
+  Y Combinator (Summer 2026).
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://www.controlseat.com/ControlSeatFavicon.PNG
 url: https://raw.githubusercontent.com/api-evangelist/control-seat/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - y-combinator
-x-tier: stub
-x-tier-reason: portfolio-lead
+x-tier: profiled
+x-tier-reason: enriched-from-public-surface
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- SCADA
+- Industrial
+- Monitoring
+- Workflow Automation
+- Manufacturing
+- Analytics
+- Real-Time
+- IoT
+- Historian
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+common:
+- type: DomainSecurity
+  url: security/control-seat-domain-security.yml
+- type: Website
+  url: https://www.controlseat.com/
+- type: DeveloperPortal
+  url: https://www.controlseat.com/docs
+- type: Documentation
+  url: https://www.controlseat.com/docs
+- type: APIReference
+  url: https://www.controlseat.com/docs
+- type: ChangeLog
+  url: https://www.controlseat.com/updates
+- type: ChangeLog
+  url: changelog/control-seat-changelog.yml
+- type: LLMsTxt
+  url: llms/control-seat-llms.txt
+- type: Blog
+  url: https://www.controlseat.com/blog
+- type: Pricing
+  url: https://www.controlseat.com/pricing
+- type: Support
+  url: mailto:founders@controlseat.com
+- type: TermsOfService
+  url: https://www.controlseat.com/terms
+- type: PrivacyPolicy
+  url: https://www.controlseat.com/privacy
+- type: About
+  url: https://www.controlseat.com/about
+- type: Contact
+  url: https://www.controlseat.com/contact
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

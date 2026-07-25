@@ -1,0 +1,100 @@
+generated: '2026-07-18'
+method: searched
+source: https://www.controlseat.com/updates
+scheme: semver-0.x
+current_version: V0.2.2
+notes: >-
+  Product release notes for the Control Seat platform. Captured from the public
+  /updates page (recent window). Versions are pre-1.0 (0.x) reflecting an
+  active early-stage product. Not an API-versioning changelog; Control Seat does
+  not publish a versioned public REST API.
+entries:
+- version: V0.2.2
+  date: '2026-07-11'
+  breaking: false
+  highlights:
+  - Charts of rarely-changing values now draw correctly
+  - Tags panel refreshes without flicker
+- version: V0.2.1
+  date: '2026-07-09'
+  breaking: false
+  highlights:
+  - PI historian gap fill
+  - Faster loading for chart-heavy dashboards
+  - New offline AI command
+- version: V0.2.0
+  date: '2026-07-08'
+  breaking: false
+  highlights:
+  - Historian stability improvements
+  - Dock resizer fixes
+  - Dock trait editing refinements
+- version: V0.1.9
+  date: '2026-07-07'
+  breaking: false
+  highlights:
+  - OpenBridge out of beta
+  - New bar and radar charts
+  - Pipes overhaul with connection stickiness
+- version: V0.1.8
+  date: '2026-07-06'
+  breaking: false
+  highlights:
+  - OpenBridge SCADA component library launch
+  - Multi-tag historian query batching
+- version: V0.1.7
+  date: '2026-07-01'
+  breaking: false
+  highlights:
+  - MQTT write path
+  - Hosted MQTT broker
+  - Alarm serialization
+  - Trends at 100k+ tags
+- version: V0.1.6
+  date: '2026-06-18'
+  breaking: false
+  highlights:
+  - Historian flexibility and configurable retention
+  - MQTT robustness
+  - Large-scale tag support
+- version: V0.1.5
+  date: '2026-06-06'
+  breaking: false
+  highlights:
+  - Trends Workbench
+  - OPC UA connectivity
+  - AVEVA PI and Ignition module
+- version: V0.1.4
+  date: '2026-05-08'
+  breaking: false
+  highlights:
+  - Native installers for Mac, Windows, and Linux
+  - MQTT, Sparkplug B, and OPC UA support
+- version: V0.1.3
+  date: '2026-04-24'
+  breaking: false
+  highlights:
+  - AI assistant can query the historian directly
+  - Improved flow editor
+- version: V0.1.2
+  date: '2026-04-23'
+  breaking: false
+  highlights:
+  - Enhanced AI editor
+  - New Query Tags source for SQL/InfluxDB/Prometheus
+- version: V0.1.1
+  date: '2026-04-22'
+  breaking: false
+  highlights:
+  - Email delivery fixes
+  - Live/Preview/Both toggle for edge inspector
+- version: V0.1.0
+  date: '2026-04-21'
+  breaking: false
+  highlights:
+  - Flows, a visual rule engine for real-time alerts, automations, and anomaly detection
+- version: V0
+  date: '2026-04-19'
+  breaking: false
+  highlights:
+  - Initial public release with drag-and-drop dashboards and AI integration

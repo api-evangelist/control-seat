@@ -17,6 +17,17 @@ description: >-
   managed cloud or self-hosted on-premises. Founded in 2025 by Jack Grodnick
   and Warren Shepard, Control Seat is based in San Francisco and backed by
   Y Combinator (Summer 2026).
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
